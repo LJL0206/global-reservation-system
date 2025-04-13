@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 from models import db, User, Service, Booking  # 確保 models.py 有定義這些模型
 from werkzeug.security import generate_password_hash, check_password_hash
+import os
 
 app = Flask(__name__)
 # 設定 Secret Key (請更換成你自己的複雜字串)
