@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to right, #f1f4f8, #d7e1ec);
+  }
+  
+  .card {body.fancy-bg {
+    background: linear-gradient(135deg, #d2e3fc, #fce4ec);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .glass-card {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #333;
+  }
+  
+  input.form-control {
+    border-radius: 12px;
+    border: 1px solid #ccc;
+  }
+  
+  input.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    border-color: #80bdff;
+  }
+  
+  button.btn {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.2s;
+  }
+  
+  button.btn:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+  }
+  
+    border: none;
+    border-radius: 1.5rem;
+  }
+  
+  input:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.6);
+  }
+  
